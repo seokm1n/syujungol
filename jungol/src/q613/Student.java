@@ -1,9 +1,9 @@
 package q613;
 
 public class Student{
-	String name;
-	String school;
-	int grade;
+	private String name;
+	private String school;
+	private int grade;
 	
 	public Student(String name, String school, int grade) {
 		this.name = name;
