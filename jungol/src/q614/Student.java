@@ -1,8 +1,8 @@
 package q614;
 
 public class Student{
-	String school;
-	int grade;
+	private String school;
+	private int grade;
 	
 	public Student(String school, int grade) {
 		this.school = school;
