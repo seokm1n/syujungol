@@ -6,8 +6,7 @@ public class Main {
 		Object[] count = { "count", 20, 5, 110 };
 		Object[] price = { "price", 100, 95, 97 };
 		for (int i = 0; i < 4; i++) {
-			System.out.printf("%10s%10s%10s",item[i], count[i], price[i]);
-			System.out.println("");
+			System.out.printf("%10s%10s%10s\n",item[i], count[i], price[i]);
 		}
 	}
 }
