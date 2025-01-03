@@ -11,11 +11,10 @@ public class Main {
 			System.out.print("ASCII code =? ");
 			int num = sc.nextInt();
 			
-			if(num<33 || num>128)
+			if(num<33 || num>127)
 				break;
-			else {
-			System.out.printf("%c",num);
-			}
+			
+			System.out.println((char) num);
 		}
 		sc.close();
 	}
